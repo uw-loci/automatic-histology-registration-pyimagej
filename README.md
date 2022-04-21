@@ -2,7 +2,7 @@
 Registration of histological images using stitching and registration plugins in [ImageJ/FIJI](https://imagej.net/software/fiji/) via [PyImageJ](https://github.com/imagej/pyimagej).
 
 ## Requirements
-`env.yml` and [PyImageJ](https://github.com/imagej/pyimagej).
+`env.yml` and [PyImageJ](https://github.com/imagej/pyimagej) and [PyTorch](https://pytorch.org/) if use CoMIR.
 
 ## Generate intermediate modality for multimodal image registration
 Registering images of different imaging modalities can be difficult. One can convert the images into a common intermediate modality (pseudo modality) using methods such as [CoMIR](https://github.com/MIDA-group/CoMIR).  
